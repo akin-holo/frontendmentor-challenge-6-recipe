@@ -1,0 +1,104 @@
+body {
+   color:  hsl(30, 10%, 34%);
+   background-color: hsl(30, 54%, 90%);
+   font-family: "Outfit", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-size: 16px;
+}
+
+
+main {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.recipe-container {
+   width: 740px;
+   background-color: #fff;
+   border-radius: 10px;
+}
+
+.wrapper {
+   display: block;
+   margin: auto 2rem;
+   /* background-color: #fff00f; */
+}
+
+img {
+   display: block;
+   width: 660px;
+   height: 300px;
+   margin: 2rem auto;
+   border-radius: 10px;
+}
+
+h2 {
+   color: #000;
+   text-transform: capitalize;
+   font-family: "Young Serif", serif;
+   font-weight: 600;
+}
+
+/* p {
+   color:  hsl(30, 10%, 34%);
+} */
+
+.preparation {
+   background-color: hsl(330, 100%, 98%);
+   border-radius: 5px;
+}
+ul {
+   list-style-position: inside;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 150px;
+   gap: 10px;
+}
+.preparation-time {
+   color: hsl(332, 51%, 32%);
+}
+li {
+   margin-left: 10px;
+   font-size: 12px;
+}
+li span {
+   font-weight: 500;
+}
+::marker {
+   color: hsl(332, 51%, 32%);
+}
+::marker(2) {
+   color: #fff;
+}
+
+.section {
+   border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.heading {
+   display: block;
+   color: hsl(14, 45%, 36%);
+   margin-top: 20px;
+   font-weight: 700;
+   font-size: 24px;
+}
+
+.ingredient-wrapper ul {
+   list-style-position: outside;
+   margin: 0;
+}
+
+ol {
+   list-style-position: outside;
+}
+ol li {
+   margin: 10px 0;
+   text-wrap: wrap;
+   /* text-indent: 15px; */
+}
+ol li::marker {
+   font-weight: 600;
+}
