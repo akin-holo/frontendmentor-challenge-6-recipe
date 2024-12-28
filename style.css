@@ -85,14 +85,13 @@ h2 {
 }
 .preparation-time {
    color: hsl(332, 51%, 32%);
-   margin: 30px 0 0 25px;
+   margin: 10px 0 0 25px;
 }
 ul {
    list-style-position: inside;
    display: flex;
    flex-direction: column;
    justify-content: center;
-   /* height: 150px; */
    gap: 10px;
 }
 li {
@@ -120,6 +119,9 @@ li span {
    font-size: 24px;
 }
 
+.ingredient-wrapper {
+   padding-bottom: 15px;
+}
 .ingredient-wrapper ul {
    list-style-position: outside;
    margin: 0;
