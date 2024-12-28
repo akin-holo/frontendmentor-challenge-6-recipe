@@ -42,9 +42,7 @@ h2 {
    font-weight: 600;
 }
 
-/* p {
-   color:  hsl(30, 10%, 34%);
-} */
+
 
 .preparation {
    background-color: hsl(330, 100%, 98%);
@@ -101,4 +99,30 @@ ol li {
 }
 ol li::marker {
    font-weight: 600;
+}
+
+
+.nutrition-wrapper {
+   padding: 0 0 30px;
+   /* margin-bottom: 10px; */
+}
+.nutrition-wrapper p {
+   font-size: 13px;
+}
+table {
+   border-collapse: collapse;
+   line-height: 30px;
+   width: 100%;
+   font-size: 13px;
+}
+td {
+   border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.nut-name {
+   text-indent: 20px;
+   width: 50%;
+}
+.value {
+   color: hsl(332, 51%, 32%);
+   font-weight: 500;
 }
