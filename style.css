@@ -13,26 +13,60 @@ main {
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   line-height: 1.5;
 }
 
 .recipe-container {
    width: 740px;
    background-color: #fff;
    border-radius: 10px;
+
+
+   @media screen and (max-width: 359px) {
+      width: 100vw;
+      margin: 0;
+   }
+
+   @media screen and (min-width: 360px) and (max-width: 900px) {
+      width: 99%;
+      /* margin: 0; */
+   }
 }
 
 .wrapper {
    display: block;
    margin: auto 2rem;
-   /* background-color: #fff00f; */
+
+
+   @media screen and (max-width: 359px) {
+      text-align: left;
+      margin: auto 0.5rem;
+   }
+
+   @media screen and (min-width: 360px) and (max-width: 900px) {
+      margin: 0.5rem; 
+   }
 }
 
 img {
    display: block;
    width: 660px;
    height: 300px;
-   margin: 2rem auto;
+   margin: 2rem 0;
    border-radius: 10px;
+
+
+   @media screen and (max-width: 359px) {
+      width: 100%;
+      height: 140px;
+      margin: 0.5rem auto;
+   }
+
+   @media screen and (min-width: 360px) and (max-width: 900px) {
+      width: 98%; 
+      /* height: 140px; */
+      margin: 0.8rem auto;
+   }
 }
 
 h2 {
@@ -62,6 +96,11 @@ ul {
 li {
    margin-left: 10px;
    font-size: 12px;
+
+   
+   /* @media screen and (max-width: 359px) {
+      margin-left: 0px;
+   } */
 }
 li span {
    font-weight: 500;
@@ -104,7 +143,6 @@ ol li::marker {
 
 .nutrition-wrapper {
    padding: 0 0 30px;
-   /* margin-bottom: 10px; */
 }
 .nutrition-wrapper p {
    font-size: 13px;
